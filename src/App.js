@@ -1,17 +1,21 @@
 
-import React from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import HomePage from './Components/HomePage.js'
+import ContactForm from './Components/ContactForm.js'
 import './App.css';
-import HomePageCover from './images/HomePageCover.jpg';
 
-function App() {
-  return (
-    <div className="App">
-        <h1>Front End Developer</h1>
-      <img src={HomePageCover} alt='My favourite place'/>
-      <p>Want to know more or have an idea you want to turn into reality?</p>
-      <button>Contact Me</button>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+        <Route exact path='/' component={HomePage} />
+        <Route exact path='/contactform' component={ContactForm} />
+      </div>
+      </Router>
+    );
+  }
 }
-
-export default App;
+ 
+export default App
