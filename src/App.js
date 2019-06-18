@@ -1,10 +1,10 @@
 
 import React, { Component } from 'react';
 import { BrowserRouter as Router} from 'react-router-dom';
-import { NavHashLink as Link } from 'react-router-hash-link';
 import HomePage from './Components/HomePage.js';
 import ContactForm from './Components/ContactForm.js';
 import AboutMe from './Components/AboutMe.js';
+import NavBar from './Components/NavBar.js';
 import './App.css';
 
 class App extends Component {
@@ -12,9 +12,10 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-        <Link to="/#homepage" component={HomePage}>Home Page</Link>
-        <Link to="/#aboutme" component={AboutMe} />
-        <Link to="/#contactform" component={ContactForm} />
+        <NavBar/>
+        <HomePage/>
+        <AboutMe/>
+        <ContactForm/>
       </div>
       </Router>
     );

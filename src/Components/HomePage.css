@@ -1,12 +1,6 @@
-.Home {
-    display: grid;
-    justify-content: space-around;
-    align-items: center;
-    padding: 400px;
-  }
   
   .Home .title {
-      color: black;
+      color: white;
       font-weight: 30px;
       font-size: 60px;
       animation: slidein 3s ease;
@@ -24,17 +18,23 @@
         }
     }
 
-/* img {
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0, 0.8)),
+.Home .subtitle{
+    color: white;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0, 0.6)),
         url("../images/HomePageCover.jpg");
     background-position: bottom;
-    background-attachment: fixed;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     position: relative;
-      } */
+      }
    
- img {
+ /*img {
     background-size: cover;
     content: "";
     display: block;
@@ -45,7 +45,7 @@
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-  }
+  }*/
   
   .Home .contact{
     border-radius: 20px;

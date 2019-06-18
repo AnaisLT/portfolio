@@ -1,0 +1,8 @@
+.navbar{
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(5, 5, 5, 0.8);
+    padding-top: 1%;
+    text-align: end;
+}
