@@ -1,8 +1,10 @@
 
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
-import HomePage from './Components/HomePage.js'
-import ContactForm from './Components/ContactForm.js'
+import { BrowserRouter as Router} from 'react-router-dom';
+import { NavHashLink as Link } from 'react-router-hash-link';
+import HomePage from './Components/HomePage.js';
+import ContactForm from './Components/ContactForm.js';
+import AboutMe from './Components/AboutMe.js';
 import './App.css';
 
 class App extends Component {
@@ -10,8 +12,9 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-        <Route exact path='/' component={HomePage} />
-        <Route exact path='/contactform' component={ContactForm} />
+        <Link to="/#homepage" component={HomePage}>Home Page</Link>
+        <Link to="/#aboutme" component={AboutMe} />
+        <Link to="/#contactform" component={ContactForm} />
       </div>
       </Router>
     );

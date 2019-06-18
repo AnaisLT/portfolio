@@ -4,7 +4,7 @@ export default function AboutMe() {
     return (
       <div>
         <h1 className='title'>About Me</h1>
-        <p>Coming soon!</p>
+       
       </div>
     )
   }
