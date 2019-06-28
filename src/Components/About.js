@@ -1,5 +1,6 @@
 import React from 'react';
 import ProfilePic from '../images/ProfilePic.jpg';
+import './About.css';
 
 export default function About() {
     return (
@@ -7,10 +8,11 @@ export default function About() {
       <div>
         <h1 className='title'>Get to know me!</h1>
       </div>  
-      <div>
+      <div className='portfoliopic'>
         <img
           src={ProfilePic}
-          alt='My profile pic' />    
+          alt='My profile pic'>
+        </img>    
       </div>
       </>
     )

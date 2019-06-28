@@ -1,17 +1,4 @@
-
-/*.Home {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0, 0.6)),
-        url("../images/HomePageCover.jpg");
-    background-position: bottom;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-      } */
-
-  body {
+ #content {
     font-family: monospace;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0, 0.6)),
@@ -19,7 +6,8 @@
     background-position: bottom;
     background-size: cover;
     height: 100vh;
-    position: relative;
+    position: absolute;
+    top:0;
   }
   
   p {
@@ -33,26 +21,17 @@
     border: white solid;
     text-decoration: none;
     padding: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 50;
   } 
 
-  /* button {
-    font-size: 20px;
-    font-family: monospace;
-    cursor: pointer;
-    padding: 15px;
-    opacity: 0.3;
-    background-color: black;
-    color: white;
-    width: 100%;
-  }*/
-  
   #links {
     display: flex;
     justify-content: space-around;
-    position: bottom;
     font-size: 20px;
-    margin-top: 30px;
-    margin-right: 60px;
+    /* margin-top: 30px;
+    margin-right: 60px; */
   }
   
   #name {
@@ -61,11 +40,6 @@
     text-align: center;
     margin-top: 100px;
     margin-bottom: 30px;
-  }
-  
-  .logo {
-    margin-left: 40px;
-    display: block;
   }
   
   .letter {
@@ -148,14 +122,10 @@
     animation: mymove 3s;
   }
   
-  ::selection {
-    background: #b39ddb;
-  }
-  
   p {
     padding: 30px;
     text-align: center;
     font-family: 'Courier';
     font-size: 22px;
     color: white;
-  }
+  } 
