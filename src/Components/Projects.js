@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Portfolio() {
+export default function Projects() {
     return (
       <div>
         <h1 className='title'>This is my work</h1>      

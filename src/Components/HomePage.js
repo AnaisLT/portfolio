@@ -41,7 +41,7 @@ class Home extends Component {
             <Link to='/about'>
               Let's break the ice
             </Link>
-            <Link to='/portfolio'>
+            <Link to='/projects'>
               Check my work
             </Link>
             <Link to='/contact'>
