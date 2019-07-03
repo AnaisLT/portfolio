@@ -1,4 +1,4 @@
- #content {
+ #main-container {
     font-family: monospace;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0, 0.6)),
@@ -8,32 +8,24 @@
     height: 100vh;
     position: absolute;
     top:0;
+
   }
   
-  p {
-    margin-left: 30px;
-    margin-bottom: -10px;
-    font-size: 20px;
-  }
   
-  #links a {
+#links a {
     color: white;
     border: white solid;
     text-decoration: none;
     padding: 10px;
-    cursor: pointer;
-    position: relative;
-    bottom: 50;
-  } 
+    cursor: pointer; 
+  }
 
   #links {
     display: flex;
     justify-content: space-around;
     font-size: 20px;
-    /* margin-top: 30px;
-    margin-right: 60px; */
   }
-  
+
   #name {
     display: flex;
     flex-direction: column;
