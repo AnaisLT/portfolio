@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import '../Components/HomePage.css';
 import AnimateTitle from './AnimateTitle.js';
 
@@ -15,22 +14,22 @@ class Home extends Component {
         <div id='main-container'>
           <div id='container1'>
             <div id='name'>
-              <span class='logo'>
-                <span id="h" class='letter'>H</span>
-                <span id="e" class='letter'>E</span>
-                <span id="l" class='letter'>L</span>
-                <span id="l" class='letter'>L</span>
-                <span id="o" class='letter'>0</span>
+              <span className='logo'>
+                <span id="h" className='letter'>H</span>
+                <span id="e" className='letter'>E</span>
+                <span id="l" className='letter'>L</span>
+                <span id="l" className='letter'>L</span>
+                <span id="o" className='letter'>0</span>
               </span>
-              <span class='logo'>
-                <span id="i" class='letter'>I</span>
-                <span id="apos" class='letter'>'</span>
-                <span id="m" class='letter'>M </span>
-                <span id="a" class='letter'> A</span>
-                <span id="n" class='letter'>N</span>
-                <span id="a" class='letter'>A</span>
-                <span id="i" class='letter'>I</span>
-                <span id="s" class='letter'>S</span>
+              <span className='logo'>
+                <span id="i" className='letter'>I</span>
+                <span id="apos" className='letter'>'</span>
+                <span id="m" className='letter'>M </span>
+                <span id="a" className='letter'> A</span>
+                <span id="n" className='letter'>N</span>
+                <span id="a" className='letter'>A</span>
+                <span id="i" className='letter'>I</span>
+                <span id="s" className='letter'>S</span>
               </span>
             </div>
           </div>
@@ -39,15 +38,15 @@ class Home extends Component {
           </div>
           <div id='container2'>
             <div id='links'>
-              <Link to='/about'>
+              <a href='#about' rel="noreffer nooppener">
                 Let's break the ice
-            </Link>
-              <Link to='/projects'>
+              </a>
+              <a href='#projects' rel="noreffer nooppener">
                 Check my work
-            </Link>
-              <Link to='/contact'>
+              </a>
+              <a href='#contact' rel="noreffer nooppener">
                 Say "Hi!"
-            </Link>
+              </a>
             </div>
           </div>
         </div >
