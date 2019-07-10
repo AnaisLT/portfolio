@@ -1,9 +1,9 @@
-import React from 'react';
-
+import React from "react";
+import '../App.css'
 export default function Contact() {
-    return (
-      <div>
-        <h1 className='title'>Get in touch!</h1>      
-      </div>
-    );
-  }
+  return (
+    <div id="contact" className="section">
+      <h1 className="title">Get in touch!</h1>
+    </div>
+  );
+}
