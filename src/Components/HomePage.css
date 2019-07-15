@@ -17,6 +17,7 @@
     text-decoration: none;
     padding: 10px;
     cursor: pointer; 
+    font-family: 'Montserrat', 'sans-serif';
   }
 
   #links {
@@ -36,9 +37,9 @@
   .letter {
     font-size: 200px;
     line-height: 110px;
-    font-family: 'Lucida Sans Typewriter', sans-serif;
+    font-family: 'Barriecito', cursive;
     font-weight: 800;
-    letter-spacing: -20px;
+    letter-spacing: -5px;
     position: relative;
     transition: top ease 0.1s;
     transition-delay: 2s;
@@ -46,55 +47,55 @@
   }
   
   #h {
-    color: seashell;
+    color: white;
   }
   
   #e {
-    color: seashell;
+    color: white;
   }
   
   #l {
-    color: seashell;
+    color: white;
   }
   
   #l {
-    color: seashell;
+    color: white;
   }
   
   #o {
-    color: seashell;
+    color: white;
   }
   
   #i {
-    color: seashell;
+    color: white;
   }
   
   #apos {
-    color: seashell;
+    color: white;
   }
   
   #m {
-    color: seashell;
+    color: white;
   }
   
   #a {
-    color: seashell;
+    color: white;
   }
   
   #n {
-    color: seashell;  
+    color: white;  
   }
 
   #a {
-    color: seashell;
+    color: white;
   }
 
   #i {
-    color: seashell;
+    color: white;
   }
 
   #s {
-    color: seashell;
+    color: white;
   }
   
   @keyframes mymove {
@@ -113,10 +114,11 @@
     animation: mymove 3s;
   }
   
-  p {
+  h3 {
     padding: 30px;
     text-align: center;
-    font-family: 'Courier';
+    font-family: 'Montserrat', 'sans-serif';
     font-size: 22px;
+    text-transform: uppercase;
     color: white;
   } 

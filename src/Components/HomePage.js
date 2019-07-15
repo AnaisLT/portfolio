@@ -44,7 +44,7 @@ class Home extends Component {
                 </span>
                 <span id="a" className="letter">
                   {" "}
-                  A
+                    A
                 </span>
                 <span id="n" className="letter">
                   N
@@ -62,7 +62,7 @@ class Home extends Component {
             </div>
           </div>
           <div>
-            <p>Create.Learn.Code.Repeat</p>
+            <h3>London based Junior full-stack developer</h3>
           </div>
           <div id="container2">
             <div id="links">

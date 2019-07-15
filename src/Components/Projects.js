@@ -1,10 +1,13 @@
 import React from 'react';
+import './Projects.scss';
 import '../App.css'
 
 export default function Projects() {
-    return (
-      <div id='projects' className='section'>
-        <h1 className='title'>This is my work</h1>      
+  return (
+    <div>
+      <div className='projects-section'>
+        <h1 className='title'>This is my work</h1>
       </div>
-    )
-  }
+    </div>
+  );
+}
