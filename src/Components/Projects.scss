@@ -15,3 +15,26 @@
     text-transform: uppercase;
     position: relative;
 }
+
+.projects-container {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-card {
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prj-img {
+    height: 100%;
+    width: 100%;
+}
+ 
+.description {
+    padding: 10px;
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+    background-color: white;
+}

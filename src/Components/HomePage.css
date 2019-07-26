@@ -37,9 +37,9 @@
   .letter {
     font-size: 200px;
     line-height: 110px;
-    font-family: 'Barriecito', cursive;
-    font-weight: 800;
-    letter-spacing: -5px;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: bold;
+    letter-spacing: -20px;
     position: relative;
     transition: top ease 0.1s;
     transition-delay: 2s;
@@ -117,7 +117,7 @@
   h3 {
     padding: 30px;
     text-align: center;
-    font-family: 'Montserrat', 'sans-serif';
+    font-family: 'Barriecito', cursive;
     font-size: 22px;
     text-transform: uppercase;
     color: white;

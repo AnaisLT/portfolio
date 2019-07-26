@@ -9,16 +9,16 @@ export default function Contact() {
     <div>
       <div className='contact-section'>
         <h1 className="title">Get in touch!</h1>
-      </div>
-      <div className='contact-container'>
-        <div className='contact-item'>
-          <img src={GmailLogo} className='contactImg' alt='Gmail icon' />
-        </div>
-        <div className='contact-item'>
-          <img src={LinkedInLogo} className='contactImg' alt='LinkedIn icon' />
-        </div>
-        <div className='contact-item'>
-          <img src={GitHubLogo} className='contactImg' alt='GitHub icon' />
+        <div className='contact-container'>
+          <div className='contact-item'>
+            <img src={GmailLogo} className='contactImg' alt='Gmail icon' />
+          </div>
+          <div className='contact-item'>
+            <img src={LinkedInLogo} className='contactImg' alt='LinkedIn icon' />
+          </div>
+          <div className='contact-item'>
+            <img src={GitHubLogo} className='contactImg' alt='GitHub icon' />
+          </div>
         </div>
       </div>
     </div>
